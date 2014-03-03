@@ -93,3 +93,13 @@ p {
 .systems_comp img {
 	width: 80%;
 }
+
+/* Story Banner */
+.story p {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.story {
+	margin-bottom: 5%;
+}
