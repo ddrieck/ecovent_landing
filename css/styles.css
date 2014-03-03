@@ -30,10 +30,11 @@ p {
 }
 
 .ecovent_logo {
+	padding-top: 3.5%;
 	padding-bottom: 0%;
 	margin-bottom: -1%;
 	padding-right: 2%;
-	width: 30%;
+	width: 35%;
 	float: left;
 }
 
@@ -45,14 +46,29 @@ p {
 	margin-top: 3%;
 }
 
+.title_bar p {
+	color: white;
+}
+
 .sign_up {
 	float: right;
+	padding-top: 3.5%;
+	padding-left: 10%;
+}
+
+#mce-EMAIL {
+	width: 60%;
+	display: inline-block;
+}
+
+#mc-embedded-subscribe {
+	display: inline-block;
 }
 
 /* Ecovent Video with Vent Border */
 .vent_image {
 	float: right;
-	padding-top: 8%;
+	padding-top: 12%;
 	padding-right: 8%;
 	width: 88%;
 	height: 82%;
@@ -61,7 +77,7 @@ p {
 
 .vent_video {
 	position: absolute;
-	margin-top: 12.5%;
+	margin-top: 16.5%;
 	margin-left: 23%;
 	width: 56%;
 	height: 49%;
@@ -107,4 +123,77 @@ p {
 /* What Can Banner */
 .what_can_eco img {
 	width: 60%;
+}
+
+/* Info Footer */
+.info_footer {
+	width: 100%;
+	background-color: #49a7dd;
+	color: white;
+}
+
+.container-fluid {
+	width: 100%;
+}
+
+.info_footer a {
+	color: #bfe6f5;
+}
+
+.contact {
+	padding-bottom: 10%;
+	width: 100%;
+}
+
+.glyphicon-earphone, .glyphicon-envelope, .glyphicon-home {
+	font-size: 2em;
+}
+
+.contact h4 {
+	padding-left: 5%;
+	display: inline;
+	font-size: .6em;
+
+}
+
+.contact a {
+	font-size: .6em;
+	padding-left: 5%;
+}
+
+/* Social Media Icons Taken From http://bradsknutson.com/blog/css3-rollover-social-media-icons/*/
+.twitter {
+	background-image: url('../images/icons/twitter-hover.png');
+}
+
+.google {
+	background-image: url('../images/icons/google-hover.png');
+}
+
+.facebook {
+	background-image: url('../images/icons/facebook-hover.png');
+}
+
+.social-slide {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+/* Copyright Footer */
+.copyright_footer {
+	width: 100%;
+	background-color: #49a7dd;
+	color: white;
+	clear: both;
 }
