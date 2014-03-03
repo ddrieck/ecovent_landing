@@ -73,7 +73,7 @@ p {
 }
 
 /* Systems Banner */
-.systems_banner {
+.systems_banner, .what_can {
 	width: 100%;
 	background: #F4F4F4 repeat;
 	padding-top: 2%;
@@ -85,7 +85,7 @@ p {
 	font-size: 2.75em;
 }
 
-.systems_comp {
+.systems_comp, .what_can_eco {
 	padding-left: 3%;
 	text-align: center;
 }
@@ -102,4 +102,9 @@ p {
 
 .story {
 	margin-bottom: 5%;
+}
+
+/* What Can Banner */
+.what_can_eco img {
+	width: 60%;
 }
