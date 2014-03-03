@@ -95,9 +95,9 @@ p {
 }
 
 /* Systems Banner */
-.systems_banner, .what_can {
-	width: 100%;
+.story, .what_can {
 	background: #F4F4F4 repeat;
+	width: 100%;
 	padding-top: 2%;
 	padding-bottom: 5%;
 }
@@ -123,13 +123,13 @@ p {
 	margin-right: 10%;
 }
 
-.story {
+.systems_comp {
 	margin-bottom: 5%;
 }
 
 /* What Can Banner */
 .what_can_eco img {
-	width: 60%;
+	width: 50%;
 }
 
 /* Info Footer */

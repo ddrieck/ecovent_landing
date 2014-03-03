@@ -93,7 +93,7 @@ p {
 }
 
 /* Systems Banner */
-.systems_banner, .what_can {
+.story, .what_can {
 	width: 100%;
 	background: #F4F4F4 repeat;
 	padding-top: 2%;
@@ -120,7 +120,7 @@ p {
 	margin-right: 10%;
 }
 
-.story {
+.systems_banner {
 	margin-bottom: 5%;
 }
 
