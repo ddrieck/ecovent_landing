@@ -14,11 +14,19 @@ p {
 	font-weight: 400;
 }
 
+/* CLearfix */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Fixed Title Bar Styles */
 .title_bar {
 	position: fixed;
 	width: 100%;
-	background-color: #76b9e0;
+	background-color: #49a7dd;
+	z-index: 15;
 }
 
 .ecovent_logo {
@@ -43,18 +51,45 @@ p {
 
 /* Ecovent Video with Vent Border */
 .vent_image {
-	position: absolute;
+	float: right;
 	padding-top: 8%;
-	margin-left: 8%;
+	padding-right: 8%;
 	width: 88%;
 	height: 82%;
+	z-index: 8
 }
 
 .vent_video {
 	position: absolute;
-	margin-top: 12.2%;
-	float: left;
+	margin-top: 12.5%;
 	margin-left: 23%;
 	width: 56%;
-	height: 59%;
+	height: 49%;
+	z-index: 10;
+}
+
+.video_section {
+	margin-bottom: 4%;
+}
+
+/* Systems Banner */
+.systems_banner {
+	width: 100%;
+	background: #F4F4F4 repeat;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.section_title {
+	text-align: center;
+	font-size: 2.75em;
+}
+
+.systems_comp {
+	padding-left: 3%;
+	text-align: center;
+}
+
+.systems_comp img {
+	width: 80%;
 }
