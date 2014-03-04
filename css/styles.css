@@ -88,7 +88,11 @@ p {
 }
 
 .video_section {
-	margin-bottom: 4%;
+	margin-bottom: 2%;
+}
+
+.social_top {
+	margin-left: 42%;
 }
 
 /* Systems Banner */
@@ -150,18 +154,20 @@ p {
 
 .glyphicon-earphone, .glyphicon-envelope, .glyphicon-home {
 	font-size: 2em;
+	display: inline;
 }
 
-.contact h4 {
+.contact_info h4 {
 	padding-left: 5%;
 	display: inline;
-	font-size: .6em;
-
+	font-size: 1.2em;
+	font-family: 'Raleway', sans-serif;
 }
 
-.contact a {
-	font-size: .6em;
+.contact_info a {
+	font-size: 1em;
 	padding-left: 5%;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* Social Media Icons Taken From http://bradsknutson.com/blog/css3-rollover-social-media-icons/*/

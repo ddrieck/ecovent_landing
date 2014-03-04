@@ -4,7 +4,7 @@ h1 {
 	font-weight: 800;
 }
 
-h3 {
+h3, h4 {
 	font-family: 'Alegreya Sans SC', sans-serif; 
 	font-weight: 500;
 }
@@ -94,6 +94,10 @@ p {
 	margin-bottom: 4%;
 }
 
+.social_top {
+	margin-left: 25%;
+}
+
 /* Systems Banner */
 .story, .what_can {
 	background: #F4F4F4 repeat;
@@ -147,25 +151,27 @@ p {
 	color: #bfe6f5;
 }
 
-.contact {
+.contact_info {
 	padding-bottom: 10%;
 	width: 100%;
 }
 
 .glyphicon-earphone, .glyphicon-envelope, .glyphicon-home {
 	font-size: 2em;
+	display: inline;
 }
 
-.contact h4 {
+.contact_info h4 {
 	padding-left: 5%;
 	display: inline;
-	font-size: .6em;
-
+	font-size: 1.2em;
+	font-family: 'Raleway', sans-serif;
 }
 
-.contact a {
-	font-size: .6em;
+.contact_info a {
+	font-size: 1em;
 	padding-left: 5%;
+	font-family: 'Raleway', sans-serif;
 }
 
 /* Social Media Icons Taken From http://bradsknutson.com/blog/css3-rollover-social-media-icons/*/
@@ -201,6 +207,7 @@ p {
 .copyright_footer {
 	width: 100%;
 	background-color: #49a7dd;
+	margin-top: 5%;
 	color: white;
 	clear: both;
 }
