@@ -1,6 +1,8 @@
 /* Fonts */
+@font-face { font-family: 'Gotham-Bold'; font-weight: bold; src: url('Gotham-Bold.otf');}
+
 .title_bar {
-	font-family: 'Alegreya Sans SC', sans-serif; 
+	font-family: 'Gotham-Bold', sans-serif; 
 	font-weight: 800;
 }
 
@@ -27,9 +29,9 @@ p {
 
 .ecovent_logo {
 	padding-top: 1%;
-	margin-bottom: 1%;
+	margin: 0% 0% 2% 5%;
 	padding-right: 2%;
-	width: 18%;
+	width: 11%;
 	float: left;
 }
 
@@ -38,7 +40,7 @@ p {
 	font-size: 2.7em;
 	padding-bottom: 0%;
 	margin-bottom: 0%;
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .title_bar p {
@@ -51,12 +53,23 @@ p {
 
 .blog_title {
 	float: right;
-	margin-right: 5%;
-	margin-top: 1%;
+	margin-right: 1%;
+	margin-top: 2.5%;
 	padding-bottom: 0%;
+	width: 10%;
 }
 
 .blog_title a {
+	color: white;
+}
+
+.blog_title h3 {
+	display: inline;
+	font-size: 1.3em;
+}
+
+.divider {
+	margin: 0 5% 0 5%;
 	color: white;
 }
 
