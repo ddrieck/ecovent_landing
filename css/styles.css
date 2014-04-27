@@ -221,6 +221,11 @@ legend {
 	padding-bottom: 3%;
 }
 
+.systems_comp:nth-of-type(2) img{
+	width: 53%;
+	padding-bottom: 5%;
+}
+
 /* Story Banner */
 .story p {
 	margin-left: 10%;
