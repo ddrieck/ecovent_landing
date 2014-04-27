@@ -11,5 +11,13 @@ $(document).ready(function(){
 				glyphSelect.addClass('glyphicon-plus');
 			}
 		});
+		$('.faq-expand').on("click", function(){
+			$('.faq-text').slideToggle();
+			if($('.glyphicon').hasClass('glyphicon-plus')){
+				$('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+			} else {
+				$('.glyphicon').removeClass('glyphicon-minus').addClass('glyphicon-plus');
+			}
+		})
 });
 

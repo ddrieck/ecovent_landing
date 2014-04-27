@@ -357,8 +357,9 @@ legend {
 
 /* FAQ Page */
 .faq-title {
-	margin: 3% 0 1% 4%;
+	margin: 3% 0 0 4%;
 	font-family: 'Gotham-Book', sans-serif;
+	text-align: center;
 }
 
 .faqs {
@@ -369,12 +370,15 @@ legend {
 .faq-text {
 	display: none;
 	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
 }
 
 .faq-question {
 	display: inline;
-	font-family: 'Gotham-Book', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
 }
+
 .glyphicon {
 	margin: 0 1% .5% 0;
 	padding-bottom: .5%;
@@ -382,5 +386,13 @@ legend {
 }
 
 .faq-section {
-	text-decoration: underline;
+	font-family: 'Gotham-Bold', sans-serif;
+}
+
+.faq-section:first-of-type {
+	margin-top: 1%;
+}
+
+.faq-expand {
+	margin: 2% 0 0 5%;
 }
