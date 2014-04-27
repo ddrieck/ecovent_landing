@@ -1,7 +1,8 @@
 $(document).ready(function(){
-		$('.faq-question').on("click", function(){
+		$('.faq-trigger').on("click", function(){
 			$(this).nextUntil('.glyphicon').slideToggle();
-			var glyphSelect = $(this).prev();
+			$('.faq-section').stop();
+			var glyphSelect = $(this).find('.glyphicon');
 			if (glyphSelect.hasClass('glyphicon-plus')){
 					glyphSelect.removeClass('glyphicon-plus');
 					glyphSelect.addClass('glyphicon-minus');
