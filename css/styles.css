@@ -1,8 +1,11 @@
 /* Fonts */
-@font-face { font-family: 'Gotham-Bold'; font-weight: bold; src: url('Gotham-Bold.otf');}
+@font-face { 
+	font-family: 'Gotham-Bold'; font-weight: bold; src: url('Gotham-Bold.otf');
+	font-family: 'Gotham-Book'; font-weight: normal; src: url('Gotham-Book.otf');	
+}
 
 .title_bar {
-	font-family: 'Gotham-Bold', sans-serif; 
+	font-family: 'Gotham-Book', sans-serif; 
 	font-weight: 800;
 }
 
@@ -29,9 +32,9 @@ p {
 
 .ecovent_logo {
 	padding-top: 1%;
-	margin: 0% 0% 2% 5%;
+	margin: 3% 0% 3% 5%;
 	padding-right: 2%;
-	width: 11%;
+	width: 60%;
 	float: left;
 }
 
@@ -49,14 +52,14 @@ p {
 
 .title_logo {
 	float:left;
+	width: 50%;
 }
 
 .blog_title {
 	float: right;
-	margin-right: 1%;
-	margin-top: 2.5%;
-	padding-bottom: 0%;
-	width: 10%;
+	margin-right: 3%;
+	margin-top: 3.5%;
+	width: 15%;
 }
 
 .blog_title a {
@@ -370,3 +373,34 @@ legend {
 	text-align: center;
 }
 
+/* FAQ Page */
+.faq-title {
+	margin: 3% 0 1% 4%;
+	font-family: 'Gotham-Book', sans-serif;
+}
+
+.faqs {
+	margin: 0 5% 2% 5%;
+	width: 90%;
+}
+
+.faq-text {
+	display: none;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 5%;
+}
+
+.faq-question {
+	display: inline;
+	font-family: 'Gotham-Book', sans-serif;
+}
+
+.glyphicon {
+	margin: 0 1% .5% 0;
+	padding-bottom: .5%;
+	display: inline;
+}
+
+.faq-section {
+	font-family: 'Gotham-Bold', sans-serif;
+}
